@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: ntangy/hello-world-js-action@v1.1
+        uses: ntangy/hello-world-js-action@v1.2
         with:
           who-to-greet: 'Bob the Cat'
       # Use the output from the `hello` step
